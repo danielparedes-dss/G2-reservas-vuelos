@@ -98,5 +98,5 @@ La aplicación no usa base de datos; utiliza tres archivos CSV generados/leídos
 - Matthew Ezequiel Llerena Montoya 
 - Eythan David Mafla Benavides 
 - Edwin Daniel Paredes Satian 
-- Jordy Sebastián Tipantuña Negrete 
+- Jordy Sebastián Tipantuña Negrete
 
