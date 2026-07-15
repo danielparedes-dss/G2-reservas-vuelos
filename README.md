@@ -2,7 +2,7 @@
 
 Aplicación de escritorio desarrollada en **Java Swing** que simula un sistema de reservas de vuelos nacionales e internacionales, con selección visual de asientos, gestión de pasajeros y persistencia de datos en archivos CSV.
 
-## Tabla de Contenido>
+## Tabla de Contenido
 
 - [Características](#-características)
 - [Arquitectura del Proyecto](#-arquitectura-del-proyecto)
@@ -12,7 +12,7 @@ Aplicación de escritorio desarrollada en **Java Swing** que simula un sistema d
 - [Persistencia de Datos](#-persistencia-de-datos)
 - [Manejo de Excepciones](#-manejo-de-excepciones)
 
-## 🚀 Características
+## Características
 
 - Selección entre **vuelos nacionales** e **internacionales**, cada uno con su propio cálculo de tarifa.
 - Cálculo dinámico de precios según la clase del asiento (Primera Clase, Ejecutiva, Económica).
@@ -44,7 +44,7 @@ ReservaInvalidaException -> excepción de negocio para reservas inválidas
 - **JDK 11 o superior** (el proyecto usa `java.time.LocalDateTime`).
 - Un IDE compatible con Swing (NetBeans, IntelliJ IDEA o Eclipse) o la línea de comandos.
 
-## ▶️ Instalación y Ejecución
+## Instalación y Ejecución
 
 ### Opción 1: Desde un IDE
 1. Clona el repositorio: `git clone <URL_DEL_REPOSITORIO>`
@@ -62,7 +62,7 @@ java -cp bin poliairlines.VentanaPrincipal
 
 Al iniciar por primera vez, la aplicación generará automáticamente los archivos `vuelosNacionales.csv` y `vuelosInternacionales.csv` con datos de ejemplo si no existen.
 
-## 📂 Estructura de Archivos
+## Estructura de Archivos
 
 ```
 src/
