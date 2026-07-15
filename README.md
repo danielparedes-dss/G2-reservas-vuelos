@@ -11,8 +11,6 @@ Aplicación de escritorio desarrollada en **Java Swing** que simula un sistema d
 - [Estructura de Archivos](#-estructura-de-archivos)
 - [Persistencia de Datos](#-persistencia-de-datos)
 - [Manejo de Excepciones](#-manejo-de-excepciones)
-- 
-- [Licencia](#-licencia)
 
 ## 🚀 Características
 
