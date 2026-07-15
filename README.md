@@ -15,7 +15,7 @@ Aplicación de escritorio desarrollada en **Java Swing** que simula un sistema d
 
 ## 🚀 Características
 
-- Selección entre **vuelos nacionales** e **internacionales**, cada uno con su propio cálculo de tarifa.
+- Selección entre vuelos nacionales e internacionales, cada uno con su propio cálculo de tarifa.
 - Cálculo dinámico de precios según la clase del asiento (Primera Clase, Ejecutiva, Económica).
 - Mapa visual de asientos (verde = libre, rojo = ocupado) generado automáticamente por vuelo.
 - Reserva de múltiples asientos en una misma operación (selección de cantidad de pasajeros).
