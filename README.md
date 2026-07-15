@@ -5,15 +5,13 @@ Aplicación de escritorio desarrollada en **Java Swing** que simula un sistema d
 ## 📋 Tabla de Contenidos
 
 - [Características](#-características)
-- [Capturas de Pantalla](#-capturas-de-pantalla)
 - [Arquitectura del Proyecto](#-arquitectura-del-proyecto)
 - [Requisitos Previos](#-requisitos-previos)
 - [Instalación y Ejecución](#-instalación-y-ejecución)
 - [Estructura de Archivos](#-estructura-de-archivos)
 - [Persistencia de Datos](#-persistencia-de-datos)
 - [Manejo de Excepciones](#-manejo-de-excepciones)
-- [Autor](#-autor)
-- [Licencia](#-licencia)
+- [Estudiantes](#-estudiantes)
 
 ## 🚀 Características
 
@@ -24,11 +22,6 @@ Aplicación de escritorio desarrollada en **Java Swing** que simula un sistema d
 - Registro de datos del pasajero (cédula, nombre, apellido, correo, teléfono).
 - Persistencia de vuelos y reservas en archivos `.csv`, con recarga de disponibilidad al reiniciar la aplicación.
 - Validación de reglas de negocio mediante una excepción personalizada (`ReservaInvalidaException`), por ejemplo para evitar doble asignación de un mismo asiento.
-
-## 📸 Capturas de Pantalla
-
-> _Agregar aquí imágenes de la interfaz (selección de vuelo, mapa de asientos, formulario de reserva). Guárdalas en una carpeta `docs/screenshots/` y enlázalas, por ejemplo:_
-> `![Mapa de asientos](docs/screenshots/mapa-asientos.png)`
 
 ## 🏗 Arquitectura del Proyecto
 
@@ -96,16 +89,14 @@ La aplicación no usa base de datos; utiliza tres archivos CSV generados/leídos
 | `vuelosInternacionales.csv` | Catálogo de vuelos internacionales (código, origen, destino, fecha, tasa internacional) |
 | `reservas.csv` | Historial de reservas confirmadas (código de reserva, datos del pasajero, vuelo, asiento, estado) |
 
-> ⚠️ Estos archivos se generan en tiempo de ejecución y **no deberían subirse al repositorio** (ver `.gitignore` sugerido), salvo que quieras versionar datos de ejemplo específicos.
-
 ## ⚠️ Manejo de Excepciones
 
 `ReservaInvalidaException` se lanza cuando se intenta reservar un asiento ya ocupado, evitando así la doble asignación. Incluye un código de error (`codigoError`) y un motivo (`motivoError`) para facilitar el diagnóstico.
 
-## 👤 Autor
+## 👤 Estudiantes
+- Lenin Antony Cachipuendo Cuascota 
+- Matthew Ezequiel Llerena Montoya 
+- Eythan David Mafla Benavides 
+- Edwin Daniel Paredes Satian 
+- Jordy Sebastián Tipantuña Negrete 
 
-_Agrega aquí tu nombre, usuario de GitHub y/o correo de contacto._
-
-## 📄 Licencia
-
-_Especifica la licencia del proyecto (por ejemplo MIT) o indica que es un proyecto académico. Puedes generar el archivo `LICENSE` directamente desde GitHub al crear el repositorio._
