@@ -45,6 +45,8 @@ ReservaInvalidaException -> excepción de negocio para reservas inválidas
 
 - **JDK 11 o superior** (el proyecto usa `java.time.LocalDateTime`).
 - Un IDE compatible con Swing (NetBeans, IntelliJ IDEA o Eclipse) o la línea de comandos.
+- Conocimientos básicos de Programación Orientada a Objetos (POO), incluyendo clases, objetos, herencia, encapsulamiento y polimorfismo.
+- Conocimientos básicos de Java Swing, para comprender la creación de ventanas, botones, paneles, etiquetas y eventos.
 
 ## ▶️ Instalación y Ejecución
 
