@@ -2,17 +2,16 @@
 
 Aplicación de escritorio desarrollada en **Java Swing** que simula un sistema de reservas de vuelos nacionales e internacionales, con selección visual de asientos, gestión de pasajeros y persistencia de datos en archivos CSV.
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenido>
 
 - [Características](#-características)
-- [Capturas de Pantalla](#-capturas-de-pantalla)
 - [Arquitectura del Proyecto](#-arquitectura-del-proyecto)
 - [Requisitos Previos](#-requisitos-previos)
 - [Instalación y Ejecución](#-instalación-y-ejecución)
 - [Estructura de Archivos](#-estructura-de-archivos)
 - [Persistencia de Datos](#-persistencia-de-datos)
 - [Manejo de Excepciones](#-manejo-de-excepciones)
-- [Autor](#-autor)
+- 
 - [Licencia](#-licencia)
 
 ## 🚀 Características
@@ -25,12 +24,8 @@ Aplicación de escritorio desarrollada en **Java Swing** que simula un sistema d
 - Persistencia de vuelos y reservas en archivos `.csv`, con recarga de disponibilidad al reiniciar la aplicación.
 - Validación de reglas de negocio mediante una excepción personalizada (`ReservaInvalidaException`), por ejemplo para evitar doble asignación de un mismo asiento.
 
-## 📸 Capturas de Pantalla
 
-> _Agregar aquí imágenes de la interfaz (selección de vuelo, mapa de asientos, formulario de reserva). Guárdalas en una carpeta `docs/screenshots/` y enlázalas, por ejemplo:_
-> `![Mapa de asientos](docs/screenshots/mapa-asientos.png)`
-
-## 🏗 Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 El sistema sigue un diseño orientado a objetos con herencia y polimorfismo:
 
@@ -46,9 +41,7 @@ Reserva          -> vincula pasajero + vuelo + asiento, controla su estado
 ReservaInvalidaException -> excepción de negocio para reservas inválidas
 ```
 
-> Se recomienda incluir un diagrama UML de clases en `docs/diagrama-clases.png` generado con alguna herramienta (draw.io, PlantUML, StarUML, etc.) para complementar esta descripción.
-
-## 💻 Requisitos Previos
+## Requisitos Previos
 
 - **JDK 11 o superior** (el proyecto usa `java.time.LocalDateTime`).
 - Un IDE compatible con Swing (NetBeans, IntelliJ IDEA o Eclipse) o la línea de comandos.
@@ -86,7 +79,7 @@ src/
     └── ReservaInvalidaException.java # Excepción personalizada de negocio
 ```
 
-## 💾 Persistencia de Datos
+## Persistencia de Datos
 
 La aplicación no usa base de datos; utiliza tres archivos CSV generados/leídos en el directorio de ejecución:
 
@@ -96,16 +89,14 @@ La aplicación no usa base de datos; utiliza tres archivos CSV generados/leídos
 | `vuelosInternacionales.csv` | Catálogo de vuelos internacionales (código, origen, destino, fecha, tasa internacional) |
 | `reservas.csv` | Historial de reservas confirmadas (código de reserva, datos del pasajero, vuelo, asiento, estado) |
 
-> ⚠️ Estos archivos se generan en tiempo de ejecución y **no deberían subirse al repositorio** (ver `.gitignore` sugerido), salvo que quieras versionar datos de ejemplo específicos.
-
-## ⚠️ Manejo de Excepciones
+## Manejo de Excepciones
 
 `ReservaInvalidaException` se lanza cuando se intenta reservar un asiento ya ocupado, evitando así la doble asignación. Incluye un código de error (`codigoError`) y un motivo (`motivoError`) para facilitar el diagnóstico.
 
-## 👤 Autor
+## 👤 Estudiantes
+- Lenin Antony Cachipuendo Cuascota 
+- Matthew Ezequiel Llerena Montoya 
+- Eythan David Mafla Benavides 
+- Edwin Daniel Paredes Satian 
+- Jordy Sebastián Tipantuña Negrete 
 
-_Agrega aquí tu nombre, usuario de GitHub y/o correo de contacto._
-
-## 📄 Licencia
-
-_Especifica la licencia del proyecto (por ejemplo MIT) o indica que es un proyecto académico. Puedes generar el archivo `LICENSE` directamente desde GitHub al crear el repositorio._
