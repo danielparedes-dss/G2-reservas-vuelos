@@ -14,7 +14,7 @@ target/
 .project
 nbproject/
 
-# Datos generados en tiempo de ejecución (se recrean automáticamente al ejecutar)
+# Datos generados en tiempo de ejecución
 reservas.csv
 vuelosNacionales.csv
 vuelosInternacionales.csv
