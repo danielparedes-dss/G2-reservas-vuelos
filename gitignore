@@ -1,0 +1,24 @@
+# Compilados de Java
+*.class
+bin/
+build/
+out/
+target/
+
+# Archivos de proyecto de IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/
+
+# Datos generados en tiempo de ejecución (se recrean automáticamente al ejecutar)
+reservas.csv
+vuelosNacionales.csv
+vuelosInternacionales.csv
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
