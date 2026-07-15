@@ -91,7 +91,7 @@ La aplicación no usa base de datos; utiliza tres archivos CSV generados/leídos
 
 `ReservaInvalidaException` se lanza cuando se intenta reservar un asiento ya ocupado, evitando así la doble asignación. Incluye un código de error (`codigoError`) y un motivo (`motivoError`) para facilitar el diagnóstico.
 
-## 👤 Estudiantes
+## Estudiantes
 - Lenin Antony Cachipuendo Cuascota 
 - Matthew Ezequiel Llerena Montoya 
 - Eythan David Mafla Benavides 
